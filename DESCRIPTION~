@@ -1,0 +1,17 @@
+Package: OpenBlasThreads
+Type: Package
+Title: Miniature Package to Set Number of OpenBlasThreads
+Version: 0.1
+Date: 2012-07-26
+Author: Simon Fuller, with contributions from Claudia Beleites
+Maintainer: Simon Fuller <simonfuller9@gmail.com>
+Depends: R (>= 1.8.0)
+LazyLoad: yes
+LazyData: yes
+Depends: R (>= 1.8.0)
+Suggests: 
+Description: Sets "set_openblas_num_threads" for linux systems with OpenBlas correctly installed. This function is currently only a dummy for Windows so no Windows capabilities are available as of yet. Please note: this assumes OpenBlas is installed in opt/openblas, as per the library recommendations. Otherwise alter the path given in Makevars.
+License: GPL (>= 2)
+URL: http://www.r-project.org
+Collate: 'set_blas.R'
+

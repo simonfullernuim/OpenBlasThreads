@@ -1,0 +1,4 @@
+extern void openblas_set_num_thread(int);
+void set_blas( int* ipt ){
+	openblas_set_num_threads( *ipt );
+}

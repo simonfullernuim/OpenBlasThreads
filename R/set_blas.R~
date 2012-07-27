@@ -1,0 +1,4 @@
+openblas_set_num_threads <- function( ipt ){
+	.C("set_blas", ipt=as.integer(ipt), PACKAGE="OpenBlasThreads")
+	return (ipt)
+}

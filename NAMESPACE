@@ -1,0 +1,2 @@
+useDynLib(OpenBlasThreads)
+export(openblas.set.num.threads)
